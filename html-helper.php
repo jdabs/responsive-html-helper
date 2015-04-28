@@ -80,7 +80,7 @@ function html_tidy( $input_html, $indent = true, $no_body_tags = "true", $fix = 
 	return $input;
 }
 
-// Spit it out the formated html. Right-click, view source and copy and paste the html into your working document.
+// Visit html-helper.php in the browser. It will spit out the formated html. Right-click, view source, and copy and paste the html into your working document.
 
 echo html_tidy($doctyped_html);
 
