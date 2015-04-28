@@ -1,5 +1,5 @@
 # Responsive HTML Helper
-Add the old HTML document in the `$sourceurl` variable. Then visit html-helper.php in the browser. Right-click, view source and then copy and paste the newly formatted HTML into your working document.
+Add the path to the old HTML document in the `$sourceurl` variable. Then visit html-helper.php in the browser. Right-click, view source and then copy and paste the newly formatted HTML into your working document.
 
 The script does these things
 - Makes sure you have an `<html>`, `<head>`, and `<body>` tag
