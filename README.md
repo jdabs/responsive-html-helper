@@ -1,7 +1,11 @@
 # Responsive HTML Helper
-Add the path to the old HTML document in the `$sourceurl` variable. Then visit html-helper.php in the browser. Right-click, view source and then copy and paste the newly formatted HTML into your working document.
+This is a PHP script that reformats old, table-based HTML layout into more responsive friendly markup. You tell it where your HTML file is and it spits out the better formatted HTML. It doesn't do all the work, but takes care of some manual tasks.
 
-The script does these things
+# How to use
+
+Add the path to the old HTML document in the `$sourceurl` variable. Then visit html-helper.php in the browser. Right-click, view the source and then copy and paste the newly formatted HTML into your working document.
+
+The script does these things:
 - Makes sure you have an `<html>`, `<head>`, and `<body>` tag
 - Adds the HTML5 doctype. If the document has the HTML 4.01 transitional doctype, it gets replaced. If there's no doctype, it is added before the `<html>` tag.
 - Puts important responsive meta tags into the head section
