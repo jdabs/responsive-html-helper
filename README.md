@@ -8,5 +8,5 @@ The script does these things
 
 # Dependencies
 
-Simple DOM Parser http://simplehtmldom.sourceforge.net/
-PHP Tidy  http://php.net/manual/en/book.tidy.php
+- Simple DOM Parser http://simplehtmldom.sourceforge.net/
+- PHP Tidy  http://php.net/manual/en/book.tidy.php
