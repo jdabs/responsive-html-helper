@@ -3,7 +3,9 @@ This is a PHP script that reformats old, table-based HTML layout into more respo
 
 # How to use
 
-Add the path to the old HTML document in the `$sourceurl` variable. Then visit html-helper.php in the browser. Right-click, view the source and then copy and paste the newly formatted HTML into your working document.
+1. Add the path to the old HTML document in the `$sourceurl` variable.
+2. Tell it where the simple_html_dom.php file is in `require_once()` tag at the top. It's part of the Simple HTML DOM parser.
+3. Then visit html-helper.php in the browser. Right-click, view the source, and then copy and paste the newly formatted HTML into your working document.
 
 The script does these things:
 - Makes sure you have an `<html>`, `<head>`, and `<body>` tag
