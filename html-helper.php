@@ -1,18 +1,11 @@
 <?php
-/*
-
-This script takes care of making the HTML markup of older sites more responsive friendly. It won't do all the work for you, but does tasks I often forget to do.
-
-*/
 
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
-$sourceurl = "test-html.html"; // Add the HTML file you want the script to make more responsive friendly here, relative to this script
-
-require_once('php-dom-parser/simple_html_dom.php'); // Get this from http://simplehtmldom.sourceforge.net/
+require_once('simple_html_dom.php'); // Get this from http://simplehtmldom.sourceforge.net/
 
 $html = new simple_html_dom();
-$sourceurl = "test-html.html"; // html file to parse goes here
+$sourceurl = "test-html.html"; // html file to parse goes here. Use a path relative to this script or any public page e.g. http://example.com
 
 $html->load_file($sourceurl);
 
